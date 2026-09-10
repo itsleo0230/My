@@ -50,4 +50,4 @@ ignore:
   sha: []
 
 merge-message-formats:
-  tfs: '^Merged PR (?<PullRequestNumber>\d+)' 
+  tfs: '^Merged PR (?<PullRequestNumber>\d+)'
