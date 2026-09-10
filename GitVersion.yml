@@ -12,7 +12,7 @@ branches:
   main:
     regex: ^main$|^master$
     mode: ContinuousDelivery
-    label: ''
+    label: ""
     increment: Patch
     prevent-increment: false
   develop:
@@ -24,7 +24,7 @@ branches:
   release:
     regex: ^releases?[/-]
     mode: ContinuousDelivery
-    label: ''
+    label: ""
     increment: None
     prevent-increment: true
   feature:
